@@ -1,0 +1,196 @@
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ /* 2. ---Main Nav--- */
+ 
+ 
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ 
+ /*   ~ sibling selector   */
+ 
+ 
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ 
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 40px;
+ } 
+
+ /* Reserve Button Styling */
+.header-action {
+    text-align: right; /* Align button to the right */
+    margin-top: 10px; /* Optional spacing adjustment */
+}
+
+/* Retrieve Booking Heading */
+#retrieve-booking h1 {
+    font-family: "Kalnia", serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 100px; /* Space below the header */
+    margin-bottom: 5px;
+}
+
+/* Reservation Box Styling */
+.reservation-form {
+    background-color: #727272;
+    padding: 100px;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between elements */
+}
+
+/* Form Labels */
+.reservation-form label {
+    font-family: "Jockey One", sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+/* Form Inputs */
+.reservation-form input {
+    width: 100%;
+    padding: 20px;
+    font-family: "Jockey One", sans-serif;
+    font-size: 12px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.reservation-form input::placeholder {
+    color: #dcdcdc;
+}
+
+/* Submit Button */
+.reservation-form button {
+    background-color: #982C2D;
+    color: white;
+    font-family: "Klee One", sans-serif;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.reservation-form button:hover {
+    background-color: #c33f3f;
+}
+
+ #footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+#footer-contact-info h3 {
+    color: #fff;
+    font-size: 23px;
+}
+ 
+#footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+    color: #efefef;
+}
+
+#price-policy {
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+}
+
+ 
