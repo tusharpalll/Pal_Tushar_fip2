@@ -1,0 +1,202 @@
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ /* 2. ---Main Nav--- */
+ 
+ 
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ 
+ /*   ~ sibling selector   */
+ 
+ 
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ 
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 40px;
+ } 
+ 
+ 
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+
+ .about-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+section img {
+    margin-top: 10px;
+}
+
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+    grid-column: 1 / -1; 
+}
+
+/* ---Line Separator Styling--- */
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+    grid-column: 1 / -1;  
+}
+
+/* ---Heading 2 Styling--- */
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* ---Heading 3 Styling--- */
+h3 {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 18px;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+/* ---Paragraph Styling--- */
+p {
+    font-family: 'Joan', serif;
+    font-size: 18px;
+    text-align: left;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* ---Image Styling--- */
+.resort-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;  
+    margin-top: 20px;  
+}
+
+
+.grid-con > div {
+    text-align: center;
+}
+
+#footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+#footer-contact-info h3 {
+    color: #fff;
+    font-size: 23px;
+}
+ 
+#footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+    color: #efefef;
+}
+
+#price-policy {
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+}
+
