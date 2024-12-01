@@ -1,0 +1,263 @@
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ /* 2. ---Main Nav--- */
+ 
+ 
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ 
+ /*   ~ sibling selector   */
+ 
+ 
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ 
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 40px;
+ } 
+
+ /* Button Styling */
+.shop-now-button {
+    padding: 10px 20px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.shop-now-button:hover {
+    background-color: #333;
+}
+
+/* Image Styling */
+#gift-section img {
+    border-radius: 5px;
+}
+
+/* Text Overlay Styling */
+#gift-section h1,
+#gift-section p {
+    margin: 0;
+}
+
+/* Ensure Text and Button Stay Visible on the Image */
+#gift-section div {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Optional to improve contrast */
+}
+
+
+
+/* Spa Services Section Styling */
+#spa-services h2 {
+    margin: 0 0 5px 0; /* Reduce bottom margin for closer spacing */
+    text-align: center;
+}
+
+/* Paragraph Styling */
+#spa-services p {
+    margin: 0;
+    line-height: 1.6; /* Adjust line height for readability */
+}
+
+/* Spa images section spacing */
+#spa-images {
+    margin-top: 20px; /* Adds spacing between the upper text and this section */
+}
+
+/* Styling for the first large image */
+.first-image {
+    width: 142px;
+    height: 245px;
+}
+
+.first-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px; /* Adds rounded corners */
+    margin-left: 40px;
+}
+
+/* Flexbox container for the smaller images */
+.smaller-images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between smaller images */
+    margin-right: 0px;
+    margin-left: -20px; 
+}
+
+/* Styling for each smaller image */
+.image-container {
+    width: 142px;
+    height: 117.5px; /* Half the height of the first image */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+.line-separator {
+    margin-top: 15px; /* Slightly closer spacing */
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+    grid-column: 1 / -1; /* Ensures it spans the full grid width */
+}
+
+/* Section Spacing */
+#hand-foot-treatments {
+    margin-top: 20px; /* Adds spacing from the previous section */
+}
+
+/* Image Styling */
+#hand-foot-treatments img {
+    width: 100%; /* Full width to fit grid */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Gap from upper text */
+}
+
+/* Paragraph Styling */
+#hand-foot-treatments p {
+    font-family: "Joan", serif;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 20px; /* Space after the image */
+}
+
+/* Availability Heading */
+#hand-foot-treatments h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    margin-top: 20px; /* Space above heading */
+}
+
+/* Line Separator */
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    grid-column: 1 / -1; /* Full grid width */
+}
+
+#footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+#footer-hero h3 {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+ 
+#footer-privacy .line-seperator {
+    margin-top: 0px;
+}
+ 
+#footer-contact-info h3 {
+    color: #fff;
+    font-size: 23px;
+}
+ 
+#footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+    color: #efefef;
+}
+
+#price-policy {
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+}
+
+
+
+
+
+
