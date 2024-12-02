@@ -88,8 +88,8 @@
 
  /* Reserve Button Styling */
 .header-action {
-    text-align: right; /* Align button to the right */
-    margin-top: 10px; /* Optional spacing adjustment */
+    text-align: right; 
+    margin-top: 10px; 
 }
 
 /* Retrieve Booking Heading */
@@ -97,7 +97,7 @@
     font-family: "Kalnia", serif;
     font-size: 16px;
     text-align: center;
-    margin-top: 100px; /* Space below the header */
+    margin-top: 100px; 
     margin-bottom: 5px;
 }
 

@@ -3,64 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resort Website</title>
+    <title>Welcome to The Couples Resort</title>
     <link rel="stylesheet" href="css/resarvation.css">
     <link rel="stylesheet" href="css/grid.css">
-    <title>Welcome to The Couples Resort</title>
 </head>
 <body>
 
     <!-- Header Section -->
     <header id="main-header" class="grid-con">
         <h1 class="hidden">Welcome to The Couples Resort</h1>
-                <nav id="main-nav" class="col-span-full">
-                    <h2 class="hidden">Main Navigation</h2>
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
 
-            <!--hamburger birth-->
+            <!-- Hamburger Menu -->
             <input type="checkbox" id="hamburger">
             <label for="hamburger">
-            <img src="images/burger.svg" alt="hamburger menu icon">
+                <img src="images/burger.svg" alt="hamburger menu icon">
             </label>
             <div id="burger-con">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a class = "selected" href="dining.html">Dining</a></li>
-                    <li><a href="#">Spa Activites</a></li>
-                    <li><a href="#">Reservations</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="sale.html">Packages</a></li>
+                    <li><a class="selected" href="dining.html">Dining</a></li>
+                    <li><a href="spa.html">Spa Activities</a></li>
+                    <li><a href="resarvation.html">Reservations</a></li>
                 </ul>
             </div>
-            </nav>
-            <!--hamburger died here-->
+        </nav>
+        <!-- Hamburger Menu Ends -->
 
-            <div id="logo" class="col-span-4">
-                <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
-            </div>
+        <div id="logo" class="col-span-4">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
     </header>
 
     <section id="retrieve-booking" class="grid-con">
         <!-- Retrieve Your Booking Section -->
         <div class="col-span-4">
-            <h1>Retrieve Your Booking</h1>
+            <h2 class="hidden">Retrieve Your Booking</h2> <!-- Changed h1 to h2 here -->
         </div>
     </section>
 
     <section id="reservation-box" class="grid-con">
         <!-- Reservation Form Box -->
         <div class="col-span-4 reservation-form">
+            <!-- Add a hidden h2 to satisfy the accessibility requirement without affecting design -->
+            <h2 class="hidden">Reservation Form Section</h2>
             <form id="booking-form" onsubmit="return validateForm()">
                 <!-- Confirmation Number -->
                 <label for="confirmation-number">*Confirmation Number</label>
-                <input type="text" id="confirmation-number" placeholder="Enter confirmation number" required>
+                <input type="text" id="confirmation-number" name="confirmation-number" placeholder="Enter confirmation number" required>
     
                 <!-- Last Name -->
                 <label for="last-name">*Last Name</label>
-                <input type="text" id="last-name" placeholder="Enter last name" required>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter last name" required>
     
                 <!-- First Name -->
                 <label for="first-name">*First Name</label>
-                <input type="text" id="first-name" placeholder="Enter first name" required>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter first name" required>
     
                 <!-- Submit Button -->
                 <button type="submit">Retrieve Your Booking</button>
@@ -76,15 +77,15 @@
                 K0M 2K0
             </p>
             <p>
-                Toll Free:+1 877 201-1156<br>
-                FAX:+1 613 638 2217<br>
-                E-mail: info@coupleresort.com
+                Toll Free: +1 877 201-1156<br>
+                FAX: +1 613 638 2217<br>
+                E-mail: <a href="mailto:info@coupleresort.com">info@coupleresort.com</a>
             </p>
         </section>
         <div id="footer-privacy" class="col-span-full line-separator">
-            <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+            <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability, and pricing. ©2013 Couples Resort Inc. All Rights Reserved. <a href="#">Privacy Policy</a></p>
         </div>
-</footer>
+    </footer>
 
 </body>
 </html>
