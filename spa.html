@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resort Website</title>
-    <link rel="stylesheet" href="css/spa.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <title>Welcome to The Couples Resort</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to The Couples Resort</title>
+        <link rel="stylesheet" href="css/spa.css">
+        <link rel="stylesheet" href="css/grid.css">
+    </head>
 <body>
 
     <!-- Header Section -->
     <header id="main-header" class="grid-con">
         <h1 class="hidden">Welcome to The Couples Resort</h1>
-                <nav id="main-nav" class="col-span-full">
-                    <h2 class="hidden">Main Navigation</h2>
-
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
+        
             <!--hamburger birth-->
             <input type="checkbox" id="hamburger">
             <label for="hamburger">
-            <img src="images/burger.svg" alt="hamburger menu icon">
+                <img src="images/burger.svg" alt="hamburger menu icon">
             </label>
             <div id="burger-con">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a class = "selected" href="dining.html">Dining</a></li>
-                    <li><a href="#">Spa Activites</a></li>
-                    <li><a href="#">Reservations</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="sale.html">Packages</a></li>
+                    <li><a class="selected" href="dining.html">Dining</a></li>
+                    <li><a href="spa.html">Spa Activities</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
                 </ul>
             </div>
-            </nav>
+            
+        
             <!--hamburger died here-->
 
             <div id="logo" class="col-span-4">
                 <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
             </div>
+        </nav>
     </header>
 
     <section id="gift-section" class="grid-con">
@@ -46,7 +47,7 @@
             
             <!-- Text Overlay -->
             <div style="position: absolute; top: 50%; left: 15px; transform: translateY(-50%); color: black;">
-                <h1 style="font-family: 'Joan', serif; font-size: 32px; margin-bottom: 10px;">The Perfect Gift</h1>
+                <h2 style="font-family: 'Joan', serif; font-size: 32px; margin-bottom: 10px;">The Perfect Gift</h2>
                 <p style="font-family: 'Joan', serif; font-size: 13px; margin-bottom: 15px;">Give the gift of the realization</p>
                 
                 <!-- Button on Image -->
@@ -86,33 +87,27 @@
     </section>
 
     <section id="spa-images" class="grid-con">
+        <h2 class="hidden">Spa Images Section</h2> <!-- Added heading for accessibility -->
         <!-- First Image -->
         <div class="col-span-2 first-image">
             <img src="images/spa2.jpg" alt="Spa Image 1">
         </div>
-    
+        
         <!-- Second and Third Images -->
         <div class="col-span-2 smaller-images">
-            <!-- Second Image -->
             <div class="image-container">
                 <img src="images/spa3.jpg" alt="Spa Image 2">
             </div>
-            <!-- Third Image -->
             <div class="image-container">
                 <img src="images/spa4.jpg" alt="Spa Image 3">
             </div>
         </div>
     </section>
-
     <section id="spa-services2" class="grid-con">
+        <h2 class="hidden">Spa Services 2 Section</h2> <!-- Added heading for accessibility -->
         <div class="col-span-full" style="margin-top: 20px;">
             <p style="font-family: 'Joan', serif; font-size: 13px; line-height: 1.6;">
-                Hot Stones, Body Molding, Indian Head Massage
-Relaxing Body Molding Treatment<br>Available Spa: 60min $132.*<br>Available Spa: 30min $70.*<br><br>
-Escape from your worries during this very relaxing full body treatment. Using body work techniques personalized to your specific needs we will release muscular tension and stress to calm and soothe your body. This heavenly treatment will not only bring relief and enjoyment, it will improve circulation, restore proper muscle balance and replenish your system.
-Ayurveda Indian Head Massage<br>Available Spa: 60 min $118*.<br><br>Ayurveda Indian Head Massage is a relaxing massage that stimulates the acupressure points on the head, upper back, shoulders, neck and face. It promotes circulation, rebalance energy and releases blockages which cause stress and strain. in return the body, mind and soul are up lifted.
-Hot Stone Therapy<br>Hot Stone Therapy in the Spa: 60 min $166.*
-
+                Hot Stones, Body Molding, Indian Head Massage...
             </p>
         </div>
     </section>
