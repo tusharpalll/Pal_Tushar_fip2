@@ -3,95 +3,95 @@
     max-width: 412px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
- } 
+} 
  
- body {
+body {
     color: #626262;
     font-family: 'Sanchez', 'Times New Roman', serif;
- }
+}
  
- a {
+a {
     text-decoration: none;
     transition: all .5s ease-in-out;
- }
+}
  
- input, textarea {
+input, textarea {
     display: block;
     margin: 0;
     padding: 0;
- }
+}
  
- .cr-red {
+.cr-red {
     color: #9a2018;
- }
+}
  
  
  /* 2. ---Main Nav--- */
  
  
  
-  #main-nav label img {
+#main-nav label img {
     width: 20px;
     height: 20px;
     margin-top: 15px;
     cursor: pointer;
     transition: all .5s ease;
     margin-bottom: 20px; 
- } 
+} 
  
- #main-nav input, #burger-con {
+#main-nav input, #burger-con {
     display: none;
- }
+}
  
  
  
- /*   ~ sibling selector   */
+/*   ~ sibling selector   */
  
  
  
  
- #main-nav input:checked ~ #burger-con {
+#main-nav input:checked ~ #burger-con {
     display: block;
- }
+}
  
- #main-nav input:checked ~ label img {
+#main-nav input:checked ~ label img {
     transform: rotate(90deg);
- }
+}
  
  
  
- #main-nav ul {
+#main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
- }
+}
  
- #main-nav ul li a {
+#main-nav ul li a {
     display: block;
     padding: 10px 0 10px 0;
     text-align: center;
     color: #626262;
- }
+}
  
- #main-nav ul li {
+#main-nav ul li {
     border-bottom: 1px solid #efefef;
- }
+}
  
 
- #main-nav ul li:first-child {
+#main-nav ul li:first-child {
     border-top: 1px solid #efefef;
- }
+}
  
- #main-nav ul li:last-child {
+#main-nav ul li:last-child {
     margin-bottom: 40px;
- } 
+} 
  
  
  
- #logo {
+#logo {
     margin-bottom: 20px;
     max-width: 382px;
- }
+}
 
  .about-image {
     width: 100%;

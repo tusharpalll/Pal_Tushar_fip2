@@ -1,0 +1,439 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(../images/sale1.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+}
+
+.hero h2 {
+    font-family: 'Italiana', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.hero p {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 36px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-family: 'Italiana', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.separator {
+    border-top: 1px solid #000;
+    margin: 20px 0;
+}
+
+.resort-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Italiana', serif;
+    font-size: 28px;
+}
+
+.book-now {
+    display: inline-block;
+    background-color: #982C2D;
+    color: white;
+    font-family: 'Italiana', serif;
+    font-size: 48px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 2px solid #982C2D;
+}
+
+.header {
+    background-color: #982C2D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo {
+    font-family: 'Italiana', serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header .navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.footer {
+    background-color: #982C2D;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content img {
+    height: 500px;
+}
+
+body {
+    font-family: 'Istok Web', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    text-align: left;
+    background: url(../images/HVG.jpg) no-repeat center center/cover;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: left;
+
+}
+
+.hero h2 {
+    text-align: left;
+}
+
+.separator {
+    width: 100px;
+    height: 5px;
+    background: #ff6f61;
+    margin: 20px auto;
+}
+
+.benefits h2 {
+    text-align: center;
+}
+
+.photo-collage h2 {
+    text-align: center;
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.cta h2 {
+    text-align: center;
+}
+
+.cta {
+    text-align: center; /* Center-align text */
+    background-color: #f9f9f9; /* Optional: Add a background color for better visibility */
+    padding: 20px; /* Add padding around the section */
+    margin: 20px auto; /* Center the section within its container */
+}
+
+.cta h2 {
+    font-size: 2rem; /* Adjust heading size */
+    margin-bottom: 10px; /* Add space below the heading */
+    color: #333; /* Text color */
+}
+
+.cta p {
+    font-size: 1rem; /* Adjust text size */
+    margin-bottom: 20px; /* Space below the paragraph */
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block; /* Make the button an inline block */
+    background-color: #ff6f61; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3e3e; /* Change color on hover */
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.benefits-grid, .testimonials-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.benefit-item, .testimonial {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-grid {
+    display: flex;
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.benefit-item {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Adjust the width for consistency */
+}
+
+.benefit-item img {
+    width: 100%; /* Stretch to fit the container */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-radius: 8px; /* Optional: Rounded corners for better aesthetics */
+}
+
+.benefit-item h3 {
+    margin: 10px 0 5px; /* Add some spacing above and below */
+}
+
+.benefit-item p {
+    color: #555; /* Slightly lighter text for contrast */
+    font-size: 0.9rem; /* Make the text more compact */
+}
+
+.photo-collage .collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.photo-collage .collage img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    border-radius: 8px; 
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align content */
+}
+
+.footer a {
+    color: #ff6f61; /* Contrasting link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.footer a:hover {
+    color: #ff3e3e; /* Highlight color for links on hover */
+}
+
+.content h2 {
+    font-size: 1.5rem; /* Adjust to your preference */
+    margin-top: 10px;
+    color: #555; /* Slightly lighter color for contrast */
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 1rem; /* Adjust the text size for readability */
+    line-height: 1.6; /* Improve spacing between lines */
+    color: #333;
+}
+
+/* General Styles */
+.content {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #fff9f7);
+    color: #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.sale-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e74c3c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sale-header h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+}
+
+.sale-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Separator */
+.separator {
+    width: 50px;
+    height: 4px;
+    background-color: #e74c3c;
+    margin: 10px auto;
+}
+
+/* Animations */
+.animation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Balloons */
+.balloon {
+    width: 50px;
+    height: 70px;
+    background: linear-gradient(135deg, #ff6f61, #d35400);
+    border-radius: 50%;
+    position: absolute;
+    animation: float 5s infinite ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.balloon-1 {
+    left: 20%;
+    animation-delay: 0s;
+}
+.balloon-2 {
+    left: 70%;
+    animation-delay: 2s;
+}
+
+/* Skull */
+.skull {
+    width: 60px;
+    height: 60px;
+    background: url('skull-icon.png') no-repeat center center/contain;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    animation: laugh 2s infinite;
+}
+
+/* Keyframes */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes laugh {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+
+
+
